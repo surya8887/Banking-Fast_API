@@ -1,0 +1,62 @@
+# Core framework
+fastapi
+uvicorn[standard]
+
+# Async DB & ORM
+sqlalchemy>=2.0
+asyncpg  # PostgreSQL async driver
+alembic  # DB migrations
+
+# Pydantic & validation
+pydantic
+email-validator  # Email validation in user schemas
+
+# Auth & Security
+passlib[bcrypt]         # Password hashing
+python-jose[cryptography]  # JWT handling
+python-multipart         # For form data (file uploads etc.)
+
+# Env and settings
+python-dotenv
+
+# HTTP clients (for APIs, microservices)
+httpx
+
+# Caching / rate limiting / sessions
+redis
+aioredis
+
+# Background tasks
+celery
+flower                 # Optional: Celery monitoring dashboard
+
+# Logging
+loguru
+
+# Task scheduling (like cron jobs)
+APScheduler
+sqlmodel
+# Error tracking / monitoring (optional)
+sentry-sdk
+
+# Optional JSON performance
+orjson
+
+# Testing & linting
+pytest
+pytest-asyncio
+httpx
+mypy
+black
+isort
+flake8
+coverage
+
+# Optional for OAuth (Google, GitHub login)
+authlib
+jose
+# Optional admin dashboards
+sqladmin              # Admin panel for SQLAlchemy & FastAPI
+
+# Email
+aiosmtplib

@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# macOS + Linux system files
+.DS_Store
+*.swp
+
+# Python environment files
+*.env
+.env.*
+.envrc
+
+# Pytest and coverage
+.cache/
+*.cover
+coverage.*
+htmlcov/
+
+# Logs
+*.log
+
+# mypy
+.mypy_cache/
+
+# FastAPI / Uvicorn specific
+instance/
+*.db
+*.sqlite3
+
+# Pydantic cache (if you're using compiled models)
+__pydantic_cache__/
+
+# Local settings or secret configs
+*.secret
+secrets.json
+
+# Node (if using npm/yarn for frontend)
+node_modules/
+dist/
+build/
+package-lock.json
+yarn.lock
